@@ -13,7 +13,6 @@ public class Validaciones {
     
     public static boolean validarNit(String nit){
     
-    return nit.matches("^[0-9]{8}[-]{1}[0-9]{1}$");
+    return nit.matches("^[0-9]{4}[-]{1}[0-9]{6}[-]{1}[1-9]{3}[-]{1}[0-9]{1}$");
     }
-    
 }

@@ -6,8 +6,7 @@ package sv.edu.udb.empleados;
  */
 import javax.swing.JOptionPane;
 import java.util.*;
-public class Segundo {
-   
+public class Segundo {   
     
     public static void main(String[] args) {       
      String salida;
